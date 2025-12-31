@@ -9,7 +9,6 @@
   <img src="https://img.shields.io/badge/License-MIT-green"/>
   <img src="https://img.shields.io/badge/Status-Stable-brightgreen"/>
 </p>
----
 
 **Image Converter** es una aplicación de escritorio desarrollada en **Python** que permite convertir imágenes entre múltiples formatos de forma rápida, segura y sencilla, mediante una **interfaz gráfica moderna** basada en **Tkinter** y **Pillow (PIL)**.
 
